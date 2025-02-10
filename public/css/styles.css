@@ -1,0 +1,131 @@
+/* Reset some default styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Main content styling */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Post styling */
+.post {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.post:last-child {
+  border: none;
+}
+
+.post-actions {
+  margin-top: 0.5rem;
+}
+
+.post-actions a,
+.post-actions button {
+  margin-right: 10px;
+  background: #007bff;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Inline form style for delete button */
+.post-actions form {
+  display: inline;
+}
+
+/* Form styling */
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-form div {
+  margin-bottom: 1rem;
+}
+
+.post-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.post-form input[type="text"],
+.post-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Button styling */
+button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #218838;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  header,
+  footer {
+    padding: 0.5rem;
+  }
+}
