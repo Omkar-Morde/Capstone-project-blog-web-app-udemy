@@ -2,10 +2,6 @@
 
 A dynamic blog web application built using **Node.js**, **Express.js**, and **EJS** that allows users to create, view, edit, and delete posts with a modern, responsive UI.
 
-![Blog App Screenshot](screenshot1.png)
-![Blog App Screenshot](screenshot2.png)
-![Blog App Screenshot](screenshot3.png)
-
 ---
 
 ## 🌟 Features
@@ -45,13 +41,13 @@ blog-web-app/
 
 ### 1️⃣ Clone the Repository:
 
-```bash
+```
 git clone https://github.com/your-username/blog-web-app.git
 cd blog-web-app
 ```
 
 ### 2️⃣ Install Dependencies:
-```bash
+```
 npm install
 ```
 
@@ -73,7 +69,21 @@ Open http://localhost:3000 in your web browser to view the app.
 
 ---
 
-📝 License
+## 👀Preview
+
+![Blog App Screenshot](screenshot/Screenshot1.png)
+
+---
+
+![Blog App Screenshot](screenshot/Screenshot2.png)
+
+---
+
+![Blog App Screenshot](screenshot/Screenshot3.png)
+
+---
+
+## 📝 License
 This project is open-source. Feel free to modify and improve it!
 
 🚀 Happy Coding! ✨
